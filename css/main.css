@@ -1,11 +1,11 @@
 body{
-    background: url(../img/background.jpg);
+    background: url(../img/fondo01.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .list-group-item{
-    margin: 5px;
-    color: white;
+    margin-top: 10px;
+    color: rgb(112, 8, 8);
     background: rgba(0,128,128,0.2);
     border: none;
 }
@@ -25,7 +25,7 @@ body{
 .card-img-top{
     width: 75%;
     margin: 50px auto 20px auto;
-    border-radius: 50%;
+    /*border-radius: 10%;*/
 }
 .card .card-title{
     color: #333;
@@ -47,7 +47,7 @@ body{
     border: none;
 }
 .social-network-wrapper{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -99,4 +99,22 @@ body{
 }
 .btn-primary{
     margin: 5px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+}
+.bordeado{
+    border: 1px solid white;
+    border-radius: 5px 13px;
+    background: rgba(201, 223, 223, 0.5);
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.card{
+    margin-bottom: 3px;
+}
+.card-img-top{
+    margin-top: 10px;
 }
